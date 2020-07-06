@@ -1,0 +1,5 @@
+dependencies:
+  python:
+    - text2speech>=0.1.2
+  system:
+    all: espeak
