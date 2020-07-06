@@ -5,3 +5,11 @@ mimic too
 mimic2
 second mimic
 2 mimic
+remote mycroft
+server mycroft
+backend mycroft
+mycroft backend
+mycroft server
+remote mimic
+backend mimic
+server mimic
