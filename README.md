@@ -15,8 +15,11 @@ allows to change or retrieve info about Text to Speech by voice
 * "change voice to richard"
 * "change voice to amazon"
 
+engines confirmed working: espeak, polly, google, mimic, mimic2
 
 # TODO
 
 - gui integration
 - "use that voice" follow up intent (voice demo)
+- needs better parsing for untested engines (yandex, bing, ibm) 
+- PR fix for responsive voice in mycroft-core
