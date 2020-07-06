@@ -1,4 +1,4 @@
-# TTS control skill
+# <img src='./icon.png' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/>  TTS control skill
 
 allows to change or retrieve info about Text to Speech by voice
 
@@ -14,6 +14,7 @@ allows to change or retrieve info about Text to Speech by voice
 * "change voice to female"
 * "change voice to richard"
 * "change voice to amazon"
+* "change voice to whisper"
 
 engines confirmed working: espeak, polly, google, mimic, mimic2
 
