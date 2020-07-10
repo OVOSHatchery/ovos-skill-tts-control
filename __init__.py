@@ -157,6 +157,8 @@ class TTSSkill(MycroftSkill):
                 voice = "kal"
             elif message.data.get("awb"):
                 voice = "awb"
+            elif message.data.get("slt"):
+                voice = "slt"
             elif message.data.get("rms"):
                 voice = "rms"
             elif message.data.get("mimicVoicesMale"):
@@ -278,7 +280,7 @@ class TTSSkill(MycroftSkill):
                     .optionally("espeak")
                     # voice requested
                     .optionally("ap").optionally("kal")
-                    .optionally("rms").optionally("awb")
+                    .optionally("rms").optionally("awb").optionally("slt")
                     .optionally("mimicVoicesMale")
                     .optionally("mimicVoicesFemale")
                     .optionally("pollyVoicesMale")
